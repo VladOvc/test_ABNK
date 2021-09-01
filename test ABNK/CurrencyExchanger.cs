@@ -7,7 +7,7 @@ namespace test_ABNK
     {
         public List<CurrencyExchange> currencyList;
 
-        public CurrencyExchanger()
+        public CurrencyExchanger() // в конструктор класса производим инициализацию списка, и тут же добовляем два объекта
         {
             {
                 currencyList = new List<CurrencyExchange>();

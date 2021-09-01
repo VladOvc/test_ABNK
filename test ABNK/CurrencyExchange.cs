@@ -7,7 +7,6 @@ namespace test_ABNK
         private string iso = "null";
         private double exchangeRates = 0;
 
-
         public string Iso
         {
             get
