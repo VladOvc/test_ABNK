@@ -4,11 +4,11 @@ using System.Globalization;
 
 namespace test_ABNK
 {
-    class Scenario //Два Сценария программы
+    class Scenarios
     {
         public CurrencyExchanger CurrencyExchanger = new CurrencyExchanger();
 
-        public void CurrencyExchangeScenario() //Сценарий Обмена валют
+        public void CurrencyExchangeScenario()
         {
             Console.Clear();
             int sourceCurrency;
@@ -53,7 +53,7 @@ namespace test_ABNK
 
         }
 
-        public void CurrencyAddingScenario() //Сценарий Добавления Валюты
+        public void CurrencyAddingScenario()
         {            
             string iso = "";
             double exchangeRate = 0;

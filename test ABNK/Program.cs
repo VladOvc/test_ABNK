@@ -6,7 +6,7 @@ namespace test_ABNK
     {
         static void Main()
         {
-            Scenario Vodila = new Scenario();
+            Scenarios Vodila = new Scenarios();
             bool work = true;
             while (work)
             {
